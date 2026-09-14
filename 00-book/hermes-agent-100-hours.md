@@ -2,8 +2,8 @@
 
 ### —— 會用・會聰明用・會開發・做出專案成果
 
-> 作者：你 ｜ 改編自 Hermes Agent 官方文件（nousresearch.com/docs）
-> 內容整理與編排：Happy eBook Authors（見書末「讀者服務」）
+> 改編自 Hermes Agent 官方文件（nousresearch.com/docs）
+> 內容整理與編排：Happy eBook Authors
 > 結構：4 部・18 章・100 節（每節 = 1 小時）・約 6-7 週（每天 2h）可讀完
 
 ---
