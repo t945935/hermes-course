@@ -1,0 +1,43 @@
+name: "🐛 勘誤回報"
+description: "書上發現錯誤（錯字/指令失效/驗收無法達成）"
+title: "[勘誤] 第 _ 章 / 第 _ 小時：簡短說明"
+labels: ["errata", "bug"]
+assignees: []
+body:
+  - type: input
+    id: location
+    attributes:
+      label: "出錯位置"
+      description: "章節 + 小時編號（例：第 7 章 / 第 20 小時）"
+      placeholder: "第 _ 章 / 第 _ 小時"
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: "書中的內容"
+      description: "貼上你看到的原文（或錯誤的行為）"
+    validations:
+      required: true
+  - type: textarea
+    id: correct
+    attributes:
+      label: "應該是什麼（如知道）"
+      description: "正確寫法、或你期望的行為"
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: "你的 Hermes 版本"
+      description: "`hermes --version` 的輸出"
+      placeholder: "v0.21.2"
+    validations:
+      required: false
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "重現步驟（如與指令有關）"
+      description: "你輸入了什麼、結果是什麼"
+    validations:
+      required: false

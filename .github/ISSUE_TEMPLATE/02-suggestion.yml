@@ -1,0 +1,30 @@
+name: "💡 內容建議"
+description: "想要新單元、教學改進、補充範例"
+title: "[建議] 簡短說明"
+labels: ["suggestion"]
+assignees: []
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: "你的建議"
+      description: "想要新增的單元 / 想改進的教學方式"
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: "重要性"
+      options:
+        - "影響我目前的學習進度"
+        - "改善整體教學品質"
+        - "小補充 / 錦上添花"
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: "參考範例（選填）"
+      description: "如果有看過類似的好的教法，可以貼連結"
+    validations:
+      required: false

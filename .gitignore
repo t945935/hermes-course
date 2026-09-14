@@ -1,0 +1,21 @@
+# 出版與建置產物（不進版控，讀者直接在 releases 下載）
+publish/*.epub
+publish/manuscript.md
+publish/cover.jpg
+publish/cover_source.png
+publish/*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 系統
+.DS_Store
+Thumbs.db
+*.Zone.Identifier
+
+# 編輯器
+.vscode/
+.idea/

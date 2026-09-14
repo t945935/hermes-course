@@ -1,0 +1,28 @@
+name: "❓ 閱讀問題"
+description: "讀者的學習問題（較適合 Discussions Q&A；如希望正式追蹤也用此模板）"
+title: "[問題] 第 _ 章 / 第 _ 小時：問題摘要"
+labels: ["question"]
+assignees: []
+body:
+  - type: input
+    id: location
+    attributes:
+      label: "相關位置"
+      description: "章節 + 小時編號"
+      placeholder: "第 _ 章 / 第 _ 小時"
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: "你的問題"
+      description: "描述你卡在哪、已經試過什麼"
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: "已嘗試過"
+      description: "貼上你試過的指令與輸出"
+    validations:
+      required: false
